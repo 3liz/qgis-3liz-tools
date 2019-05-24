@@ -203,7 +203,7 @@ class ExportFieldAlgorithm(QgsProcessingAlgorithm):
         Returns the name of the group this algorithm belongs to. This string
         should be localised.
         """
-        return self.tr('Descriptions')
+        return self.tr('Vectors')
 
     def groupId(self):
         """
@@ -213,7 +213,7 @@ class ExportFieldAlgorithm(QgsProcessingAlgorithm):
         contain lowercase alphanumeric characters only and no spaces or other
         formatting characters.
         """
-        return 'descriptions'
+        return 'vectors'
 
     def tr(self, string):
         return QCoreApplication.translate('Processing', string)
