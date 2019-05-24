@@ -1,0 +1,39 @@
+# This file contains metadata for your plugin. Since
+# version 2.0 of QGIS this is the proper way to supply
+# information about a plugin. The old method of
+# embedding metadata in __init__.py will
+# is no longer supported since version 2.0.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=The 3liz tools
+qgisMinimumVersion=3.0
+description=A 3liz processing tools
+version=0.1
+author=3liz
+email=info@3liz.com
+
+about=A 3liz processing tools
+
+tracker=http://github.com/3liz/qgis-3liz-tools/issues
+repository=http://github.com/3liz/qgis-3liz-tools
+# End of mandatory metadata
+
+# Recommended items:
+
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=processing
+
+homepage=http://github.com/3liz/qgis-3liz-tools
+category=Analysis
+icon=icon.png
+# experimental flag
+experimental=False
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
